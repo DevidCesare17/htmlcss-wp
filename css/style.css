@@ -16,8 +16,38 @@ body{
 
 header{
   height: 350px;
-  background-color: #ffffff;
   margin-top: 1%;
+}
+
+.logotree{
+  background-image: url(../img/logotree.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.logotree h1{
+  text-align: center;
+  line-height: 350px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.logotree h2{
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.main-menu{
+  background-color: #616D7E;
+  height: 50px;
+}
+
+.main-menu ul{
+  list-style: none;
+  display: inline-block;
 }
 
 main{
@@ -121,20 +151,31 @@ footer{
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-.facebook{
+.social a{
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fa-facebook-square{
   float: left;
+  text-align: center;
+  line-height: 126px;
   width: 33.3%;
   height: 100%;
 }
 
-.instagram{
+.fa-instagram{
   float: left;
-  width: 33.3%;
+  text-align: center;
+  line-height: 126px;
   height: 100%;
+  width: 33.3%;
 }
 
-.github{
+.fa-github{
   float: right;
+  text-align: center;
+  line-height: 126px;
   width: 33.3%;
   height: 100%;
 }
@@ -145,9 +186,14 @@ footer{
   clear: both;
 }
 
-.fa-facebook-square .fa-instagram .fa-github{
-  color: rgba(0, 0, 0, 0.3);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.facebook i:hover{
+  color: #1569C7;
+}
+
+.instagram i:hover{
+  color: #8D38C9;
+}
+
+.github i:hover{
+  color: #000000;
 }
