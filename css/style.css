@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/wood.png);
+}
+
+#container{
+  width: 1100px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 350px;
+  background-color: #ffffff;
+  margin-top: 1%;
+}
+
+main{
+  height: 800px;
+  margin: 1% 0;
+}
+
+.column-left{
+  float: left;
+  width: 20%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 3%;
+}
+
+.icon-rss{
+  float: left;
+  width: 10%;
+  font-size: 26px;
+  color:#F87431;
+}
+
+.organicthemes{
+  float: left;
+  width: 90%;
+}
+
+.link-list ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
+.organicthemes::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.link-list a{
+  text-decoration: none;
+  color: #348017;
+}
+
+.column-central{
+  float: left;
+  width: 48%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding: 3%;
+}
+
+.column-central h3{
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.column-right{
+  float: right;
+  width: 20%;
+  margin: 0;
+}
+
+.widget{
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 10%;
+}
+
+.widget h3{
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer{
+  height: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 1%;
+}
+
+.copyright{
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.facebook{
+  float: left;
+  width: 33.3%;
+  height: 100%;
+}
+
+.instagram{
+  float: left;
+  width: 33.3%;
+  height: 100%;
+}
+
+.github{
+  float: right;
+  width: 33.3%;
+  height: 100%;
+}
+
+.social::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fa-facebook-square .fa-instagram .fa-github{
+  color: rgba(0, 0, 0, 0.3);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
