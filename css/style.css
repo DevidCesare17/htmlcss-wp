@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-  width: 55%;
+  width: 65%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
 }
@@ -59,6 +59,7 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
+  text-align: center;
 }
 
 .main-menu{
@@ -86,7 +87,7 @@ header{
 }
 
 main{
-  height: 800px;
+  height: 1100px;
   margin: 1% 0;
 }
 
@@ -123,12 +124,6 @@ main{
   color: #FF0080;
 }
 
-.organicthemes::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .link-list a{
   text-decoration: none;
   color: #348017;
@@ -149,6 +144,10 @@ main{
   color: rgba(0, 0, 0, 0.8);
   font-size: 24px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.column-central, .column-right p{
+  line-height: 30px;
 }
 
 .column-right{
@@ -183,6 +182,7 @@ footer{
   border-radius: 10px;
   background-color: #ffffff;
   margin-bottom: 1%;
+  padding: 5px;
 }
 
 .copyright{
@@ -200,7 +200,7 @@ footer{
 }
 
 .social{
-  padding-top: 3%;
+  padding: 3.5%;
 }
 
 .fa-facebook-square{
