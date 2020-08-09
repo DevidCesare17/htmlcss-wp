@@ -65,13 +65,13 @@ header{
 .main-menu{
   text-align: center;
   background-color: #616D7E;
-  height: 50px;
 }
 
 .main-menu li{
   list-style: none;
   display: inline-block;
   padding: 1%;
+  height: 30px;
 }
 
 .main-menu a{
@@ -87,8 +87,7 @@ header{
 }
 
 main{
-  height: 1100px;
-  margin: 1% 0;
+  margin: 30px 0;
 }
 
 .column-left{
@@ -113,6 +112,10 @@ main{
   font-size: 18px;
   width: 80%;
   margin-bottom: 10%;
+}
+
+ul{
+  padding: 10px 0;
 }
 
 .link-list li{
@@ -177,8 +180,6 @@ main::after{
 }
 
 footer{
-  position: relative;
-  height: 150px;
   border-radius: 10px;
   background-color: #ffffff;
   margin-bottom: 1%;
@@ -240,4 +241,25 @@ footer{
 
 .github i:hover{
   color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  #container{
+    width: 100%;
+  }
+  header{
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  .column-left, .column-central, .column-right{
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  #container{
+    width: 90%;
+  }
 }
